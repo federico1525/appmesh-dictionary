@@ -28,7 +28,7 @@ public class DictionaryTest {
 
         for(String word : testWords)
         {
-            Dictionary.getInstance().addWord(word);
+            dictionary.addWord(word);
         }
     }
 
